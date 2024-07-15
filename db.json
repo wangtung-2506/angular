@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "name": "cykla blyat update part 2",
+      "price": "100$",
+      "imageUrl": "https://picsum.photos/100/100",
+      "description": "mo ta ",
+      "id": 32
+    },
+    {
+      "name": "tung update",
+      "price": "10000$",
+      "imageUrl": "https://picsum.photos/100/100",
+      "description": "mo ta san pham moi update",
+      "id": 33
+    },
+    {
+      "name": "product c",
+      "price": "769.00",
+      "imageUrl": "https://picsum.photos/100/100",
+      "description": "hoang",
+      "id": 35
+    },
+    {
+      "name": "laptop asus update",
+      "price": "1000$",
+      "imageUrl": "https://picsum.photos/100/100",
+      "description": "mo ta san pham laptop",
+      "id": 37
+    },
+    {
+      "name": "moi moi",
+      "price": "100203",
+      "imageUrl": "erwer",
+      "description": "ejflksfljsd",
+      "id": 38
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$XwuB75HZsam3/PQ8qPiVLuMhXspajBJExfe72DoJRjaxu71kVvn0S",
+      "confirmPassword": "123456",
+      "id": 1
+    },
+    {
+      "email": "hai@gmail.com",
+      "password": "$2a$10$ywYmOu2DRFzNEyiX.AFTdupNRfQnIwrN6YLZWfP30xBEm5eFpql.m",
+      "confirmPassword": "123456",
+      "id": 2
+    }
+  ]
+}

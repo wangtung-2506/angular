@@ -1,0 +1,29 @@
+<button class="btn btn-primary" [routerLink]="['/product/add']">them san pham </button>
+
+<table class="table table-bordered mt-3">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>name</th>
+      <th>price</th>
+      <th>imageUrl</th>
+      <th>description</th>
+      <th style="width: 300px">status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products; index as i">
+      <td scope="row">{{ i + 1 }}</td>
+      <td>{{ product.name }}</td>
+      <td>{{ product.price }}</td>
+      <td><img [src]="product.imageUrl" [alt]="product.name" /></td>
+      <td>{{ product.description }}</td>
+      <td>
+        <button class="btn btn-danger mx-3" (click)="removeItem(product.id!)">
+          xoa
+        </button>
+        <button class="btn btn-info" [routerLink]="['/admin/product', product.id, 'edit']">cập nhật</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
